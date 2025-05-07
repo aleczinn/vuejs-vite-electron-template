@@ -18,12 +18,10 @@
 </template>
 
 <script setup lang="ts">
-import {inject} from "vue";
-import {AxiosInstance} from "axios";
+import { inject } from 'vue'
+import { AxiosInstance } from 'axios'
 
-const axios = inject<AxiosInstance>('axios');
+const axios = inject<AxiosInstance>('axios')
 </script>
 
-<style scoped lang="postcss">
-
-</style>
+<style scoped lang="postcss"></style>
