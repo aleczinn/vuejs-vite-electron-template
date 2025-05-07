@@ -18,10 +18,12 @@
 </template>
 
 <script setup lang="ts">
+import {inject} from "vue";
+import {AxiosInstance} from "axios";
+
+const axios = inject<AxiosInstance>('axios');
 </script>
 
 <style scoped lang="postcss">
-.container {
-    @apply w-full h-full flex justify-center items-center;
-}
+
 </style>
