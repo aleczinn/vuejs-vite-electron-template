@@ -7,7 +7,7 @@
 [![Electron](https://img.shields.io/badge/Electron-Built%20with-47848F?style=flat-square&logo=electron&logoColor=white)](https://www.electronjs.org)
 
 This is an example project with vue.js + tailwind css, vite, typescript and electron to also work as a desktop
-application.
+application. It also included i18n for translation and axios for api request handling.
 
 ## Project Setup
 
