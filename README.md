@@ -22,18 +22,29 @@ $ npm install
 #### Web
 
 ```bash
-$ npm run dev
+$ npm run web:dev
 ```
 
-#### Desktop application
+#### As application
 
 ```bash
-$ npm run dev
+$ npm run electron:dev
 ```
 
 ### Build
 
+#### Web
+
 ```bash
+# The final files get stored in ./dist-web
+$ npm run web:build
+```
+
+#### As Application
+
+```bash
+# The final files get stored in ./dist
+
 # For windows
 $ npm run build:win
 
